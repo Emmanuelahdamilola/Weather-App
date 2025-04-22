@@ -221,3 +221,97 @@ body{
   color: #5396d9;
   font-size: 10px;
 }
+
+@media (max-width:768px){
+  
+.container{
+  width: 100%;
+}
+
+.card{
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0px auto 0;
+  padding: 20px 10px;
+  border-radius: 0;
+}
+
+
+.weather{
+  width: 100%;
+  gap: 20px;
+}
+
+.weather-icon{
+  width: 140px;
+}
+
+.weather .temp-box  h1{
+  font-size: 50px;
+
+}
+
+.weather .temp-box h3{
+  font-size: 18px;
+}
+
+.weather .temp-box p{
+  font-size: 16px;
+}
+
+.weather-details{
+  gap: 10px;
+  align-items: start;
+}
+
+.weather-details .col{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.weather-details .col img{
+  width: 25px;
+  height: 25px;
+}
+
+.weather-details .col .details h3{
+   font-size: 18px;
+}
+
+.weather-details .col .details p{
+  color: #9cc7f2;
+  font-size: 12px;
+}
+
+.other-city{
+  margin-top: 70px;
+  width: 100%;
+}
+
+.other-city h3{
+  font-size: 18px;
+}
+.sub-weather-container{
+  width: 100%;
+  gap: 20px;
+}
+.weather-content{
+  border-radius: 20px;
+}
+
+.sub-weather img{
+  width: 60px;
+}
+
+.sub-weather h2{
+  color: #f8f8ff;
+  font-weight: 500;
+}
+
+.sub-weather h3{
+  color: #bed0ec;
+}
+
+}

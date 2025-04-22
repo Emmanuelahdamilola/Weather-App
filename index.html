@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div >
+        <p class="date"></p>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="enter city name">
+        <button><img src="images/search.png"></button>
+      </div>
+   <div class="error"><p>Invalid city name</p></div>
+
+   <div class="weather-container">
+    <div class="weather-box">
+      <div class="weather">
+       <div class="weather-icon-box">
+        <img src="images/clear.png" class="weather-icon">
+        <h3 class="description">Heavy Rain</h3>
+       </div>
+        <div class="temp-box">
+          <h1 class="temp">32°C</h1>
+        <h3 class="city">Lagos, <span class="country">NG</span></h3>
+        <p class="feels">Feels like <span>32°</span></p>
+        </div>
+      </div>
+
+    
+    </div>
+    <div class="weather-details">
+      <div class="col">
+        <img src="images/humidity.png">
+        <div class="details">
+          <h3 class="humidity"></h3>
+          <p>Humidity</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/wind.png">
+        <div class="details">
+          <h3 class="wind"></h3>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/barometer.png">
+        <div class="details">
+          <h3 class="pressure"></h3>
+          <p>Pressure</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="other-city">
+      <h3>Other City</h3>
+   <div class="sub-weather-container">
+    <div class="weather-content">
+      <div class="sub-weather">
+        <img src="images/mist.png" class="sub-weather-icon">
+        <div>
+          <h2 class="sub-temp"></h2>
+        <h3 class="location">London</h3>
+        </div>
+      </div>
+      <div class="sub-weather-details">
+        <div class="col">
+          <h4 class="sub-humidity"></h4>
+          <p>Humidity</p>
+        </div>
+        <div class="col">
+          <h4 class="sub-wind-speed"></h4>
+          <p>Wind</p>
+        </div>
+        <div class="col">
+          <h4 class="sub-pressure"></h4>
+          <p>Pressure</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-content">
+      <div class="sub-weather">
+        <img src="images/mist.png" class="sub-weather-icon">
+        <div>
+          <h2 class="sub-temp"></h2>
+        <h3 class="location"></h3>
+        </div>
+      </div>
+      <div class="sub-weather-details">
+        <div class="col">
+          <h4 class="sub-humidity"></h4>
+          <p>Humidity</p>
+        </div>
+        <div class="col">
+          <h4 class="sub-wind-speed"></h4>
+          <p>Wind</p>
+        </div>
+        <div class="col">
+          <h4 class="sub-pressure"></h4>
+          <p>Pressure</p>
+        </div>
+      </div>
+    </div>
+   </div>
+    </div>
+   </div>
+   
+
+   
+  </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

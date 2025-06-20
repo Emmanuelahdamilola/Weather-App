@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background: linear-gradient(140deg, #053275, #021024);
-  ;
+  background: linear-gradient(145deg, #021024, #053275, #021024);
 }
 
 .container {
@@ -19,13 +18,11 @@ body {
 
 .card {
   background: linear-gradient(140deg, #053275, #021024);
-  ;
   width: 90%;
   max-width: 450px;
   margin: 50px auto 0;
   padding: 30px;
   border-radius: 20px;
-
 }
 
 .date {
@@ -64,7 +61,6 @@ body {
 
 .search button img {
   width: 30px;
-
 }
 
 .error {
@@ -112,7 +108,7 @@ body {
 .weather .temp-box h1 {
   font-size: 60px;
   color: #f8f8ff;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .weather .temp-box h3 {
@@ -121,14 +117,12 @@ body {
   padding-top: 8px;
   padding-bottom: 15px;
   color: #f8f8ff;
-
 }
 
 .weather .temp-box p {
   font-size: 18px;
   color: #9cc7f2;
 }
-
 
 .weather-details {
   width: 100%;
@@ -192,7 +186,6 @@ body {
   align-items: center;
   gap: 10px;
   width: 50%;
-
 }
 
 .sub-weather img {
@@ -266,10 +259,12 @@ body {
   line-height: 25px;
 }
 
-
 @media (max-width: 480px) {
   .card {
     height: 100%;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
   }
 
   .search {
@@ -331,7 +326,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .card {
     max-width: 600px;
-    padding: 30px;
+    padding: 0px;
   }
 
   .weather {
@@ -358,7 +353,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-
+  /* .weather-details {
+    justify-content: space-between;
+    gap: 40px;
+  } */
   .weather-content {
     width: 45%;
   }

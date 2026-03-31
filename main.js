@@ -25,7 +25,7 @@ displayDate();
 
 // FIX: Check that config.js loaded and API key is set
 function getApiKey() {
-  if (!window.API_KEY || window.API_KEY === "YOUR_API_KEY_HERE") {
+  if (!window.API_KEY || window.API_KEY === "c53cbfc4d19f68ce98f1eef48fb045c0") {
     showError("⚠️ API key not set. Please add your key in config.js");
     return null;
   }
